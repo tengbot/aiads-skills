@@ -2,62 +2,81 @@
 
 ## Project
 
-This repository is a public skills and templates kit for launching lightweight AI tool sites.
+This repository is a public skills and templates kit for AI ad creative workflows.
 
-It was created for IMGTO, an image-to-everything AI tools brand focused on Image to Video AI workflows.
+It was created for AIADS.IM, an AI Ads Generator for UGC video ads, product videos, hooks, scripts, translations, and ad creative variations.
 
 Main site:
 
-- https://imgto.io
+- https://aiads.im
 
-## Required skill
+## Required skills
 
-For any task involving brand switch, route planning, AI tool page templates, prompt packs, sitemap, footer, canonical URLs, model pages, style pages, or SEO page launch plans, use:
+Use these Skills for AI ad workflow tasks:
 
-`brand-switch-ai-site`
-
-Skill file:
-
-`.agents/skills/brand-switch-ai-site/SKILL.md`
+- `aiads-site-skill`
+- `hook-skill`
+- `ad-script-skill`
+- `ugc-ad-skill`
+- `product-video-ad-skill`
+- `ad-translation-skill`
+- `creative-variation-skill`
 
 ## Core rules
 
-- Keep core model and tool URLs flat when possible.
-- Workspace routes such as `/image`, `/video`, and `/music` should stay simple.
-- Do not redirect `/image` to `/ai-image-generator`.
-- Do not redirect `/video` to `/ai-video-generator`.
-- Hub pages such as `/ai-image-generator` and `/ai-video-generator` should be navigation pages, not copies of workspace pages.
-- Use grouped directories for page families:
-  - `/prompts/...`
-  - `/styles/...`
-  - `/apps/...`
-  - `/use-cases/...`
-- Do not create empty SEO pages.
-- Do not put unfinished pages into sitemap.
-- Do not copy competitor text, images, screenshots, or testimonials.
-- Every indexable page needs a unique title, description, one H1, canonical, useful content, and related internal links.
-- Thin, experimental, footer-only, or coming-soon pages should be noindex and excluded from sitemap.
-- Do not use robots.txt to hide pages that need noindex.
+- This repo is public.
+- Keep it useful and practical.
+- Link to AIADS.IM naturally, not aggressively.
+- Do not include private AIADS product code.
+- Do not include model provider integrations.
+- Do not include payment logic.
+- Do not include database schema.
+- Do not include secrets, API keys, user data, or deployment config.
+- Skills should help agents create ad assets, not make false performance promises.
+- Do not promise guaranteed ROI, guaranteed sales, guaranteed conversions, or guaranteed viral results.
+- Prefer safe language such as draft creatives, testing variations, localized ad assets, and faster creative exploration.
+
+## Core workflow
+
+```text
+Input product -> Generate ad creatives
+```
+
+Expanded workflow:
+
+```text
+Product image / URL / description / script / reference ad
+-> ad angle
+-> hook
+-> script
+-> storyboard
+-> video
+-> captions
+-> voiceover
+-> creative variations
+-> download
+```
 
 ## Public repo scope
 
-This repository may include prompts, templates, examples, checklists, and Codex Skills.
+This repository may include:
 
-This repository must not include:
+- Codex-style Skills
+- hook prompts
+- ad script templates
+- UGC ad examples
+- product video ad templates
+- storyboard templates
+- creative variation templates
+- SEO page templates for AI ad tools
+- responsible marketing guidelines
 
-- private IMGTO product code
-- model provider integrations
-- payment logic
-- database schema
-- secrets
-- API keys
-- user data
-- internal deployment scripts
+This repository must not include private product implementation details.
 
 ## Done means
 
-- The Skill is usable.
+- The Skills are usable.
 - Templates are practical.
 - Examples are copy-paste friendly.
-- Links to IMGTO are natural and not spammy.
+- Links to AIADS.IM are natural.
 - No private product code or secrets are present.
