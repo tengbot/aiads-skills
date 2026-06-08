@@ -1,50 +1,69 @@
-# IMGTO AI Site Skills
+# AIADS Skills
 
-Codex Skills, prompts, and SEO page templates for launching lightweight AI tool sites.
+Ad creation skills for AI agents.
 
-Built for [IMGTO](https://imgto.io), an **Image to Video AI Generator** and image-to-everything AI tools brand.
+Built for [AIADS.IM](https://aiads.im), an AI Ads Generator for UGC video ads, product videos, hooks, scripts, translations, and ad creative variations.
 
 ## What this is
 
-This repository is a public kit for launching and reshaping AI tool sites with Codex-style workflows. It contains reusable Skills, brand-switch briefs, SEO page templates, prompt pack examples, route rules, sitemap rules, and responsible page guidelines.
+AIADS Skills is a public kit of prompts, Codex-style Skills, ad templates, and SEO page templates for building AI ad creative tools.
 
-It is designed for builders who want to launch focused AI tool sites quickly, especially sites around:
+It is designed for builders who want AI agents to help create:
 
-- Image to Video
-- Text to Video
-- AI Animation
-- Image to Prompt
-- Photo Enhancer
-- Background Remover
-- Image Upscaler
-- AI model pages
-- Prompt libraries
-- Style and effect pages
+- UGC video ad hooks
+- product video ad scripts
+- URL to video ad briefs
+- product image to ad video storyboards
+- TikTok, Reels, Shorts ad angles
+- localized ad scripts and captions
+- creative variation sets
+- AI ad landing pages
 
-## Built for IMGTO
+## Built for AIADS.IM
 
-IMGTO means **Image To Everything**.
+AIADS.IM is an AI ad creative production platform.
 
-The public website is here:
+Main site:
 
-- [https://imgto.io](https://imgto.io)
+- [https://aiads.im](https://aiads.im)
 
-IMGTO focuses on image-to-X workflows, starting with **Image to Video AI Generator** and expanding into image tools, video tools, animation tools, prompts, styles, and model pages.
+The product direction is simple:
+
+```text
+Input product -> Generate ad creatives
+```
+
+The workflow:
+
+```text
+Product image / URL / description / script / reference ad
+-> ad angle
+-> hook
+-> script
+-> storyboard
+-> video
+-> captions
+-> voiceover
+-> creative variations
+-> download
+```
 
 ## What is included
 
-- A brand-switch Skill for AI tool sites
-- Brand brief templates
-- SEO page checklists
-- Route and canonical rules
-- Footer and sitemap templates
-- Prompt pack examples
-- Homepage, model page, tool page, video tool page, prompt page, and style page templates
-- Responsible AI tool page guidelines
+- AI ad creation Skills
+- Hook generation prompts
+- UGC ad script templates
+- Product video ad templates
+- Ad brief templates
+- Storyboard templates
+- Creative variation templates
+- SEO page templates for AI ad tools
+- Route, footer, sitemap, and canonical rules
+- Responsible AI ad page guidelines
 
 ## What is not included
 
-This repository does **not** include the private IMGTO product codebase.
+This repository does not include the private AIADS product codebase.
 
 It does not include:
 
@@ -55,7 +74,6 @@ It does not include:
 - database schema
 - auth logic
 - private prompt database
-- internal SEO automation scripts
 - user data
 - deployment secrets
 
@@ -63,40 +81,40 @@ The real product code should stay private.
 
 ## Quick start
 
-Use the brand switch Skill when launching or reshaping an AI tool site.
+Use the ad creation Skills when building or reshaping an AI ad tool site.
 
 ```text
-Use the brand-switch-ai-site skill.
+Use the aiads-skills workflow.
 
 Brand brief:
-brandName: IMGTO
-domain: https://imgto.io
-siteType: image-to-video-site
-mainKeyword: Image to Video AI Generator
-mainSlug: image-to-video
-tagline: Image to Everything
-homepageTitle: Image to Video AI Generator | IMGTO
-homepageH1: Image to Video AI Generator
-homepageDescription: Turn images into videos, animations, product clips, and social ads with IMGTO AI tools.
+brandName: AI Ads
+domain: https://aiads.im
+mainKeyword: AI Ads Generator
+homepageTitle: AI Ads Generator for UGC & Product Videos | AI Ads
+homepageH1: AI Ads Generator
+homepageDescription: Create UGC video ads, product videos, hooks, thumbnails, translations, and ad variations for TikTok, YouTube, Instagram, Facebook, and X.
 
 Create or update:
 /
-/image-to-video
-/text-to-video
-/ai-video-generator
-/image-to-animation
-/ai-animation-generator
+/ad-video-generator
+/product-image-to-video
+/url-to-video
+/ugc-video-ads
+/product-video-generator
+/ai-hook-generator
+/ai-ad-script-generator
+/ad-translation
 /pricing
 
-Update footer, sitemap, metadata, canonical, and prompt examples.
 Do not touch payment, database, API keys, or private product logic.
 ```
 
 ## Repository structure
 
 ```text
-.agents/skills/brand-switch-ai-site/SKILL.md
-.agents/skills/brand-switch-ai-site/references/
+.agents/skills/aiads-site-skill/SKILL.md
+.agents/skills/hook-skill/SKILL.md
+.agents/skills/ad-script-skill/SKILL.md
 prompts/
 templates/
 examples/
@@ -105,41 +123,42 @@ docs/
 
 ## Why this exists
 
-A lot of AI sites fail because they only ship a homepage. Useful search traffic usually comes from a system of focused pages:
+A lot of AI ad tools fail because they only ship a generic video generator. Real ad workflows need focused creative steps:
 
-- model pages
-- tool pages
-- video tool pages
-- prompt library pages
-- style and effect pages
-- comparison pages
-- use-case pages
+- ad angle
+- hook
+- script
+- storyboard
+- product video
+- UGC style
+- captions
+- CTA
+- localized variants
+- batch creative variations
 
-This kit gives Codex and human builders a repeatable way to generate those pages without turning the site into a pile of thin or duplicate content.
+This kit gives AI agents a repeatable way to create useful ad creative assets without turning the product into a pile of thin SEO pages.
 
-## Responsible SEO note
+## Responsible marketing note
 
-Use these templates to create useful product pages, not doorway pages or keyword-stuffed pages.
+Use these templates to create useful ad drafts and creative variations.
 
-Every indexable page should have:
+Do not promise:
 
-- a unique title
-- a unique description
-- one clear H1
-- a self canonical URL
-- useful content
-- real examples or prompt samples
-- related internal links
-- FAQ when helpful
+- guaranteed viral results
+- guaranteed ROI
+- guaranteed conversions
+- guaranteed sales
 
-Do not copy competitor text, images, screenshots, testimonials, or trademark-heavy page names directly.
+Use safer language:
 
-## License
-
-MIT License. See [LICENSE](LICENSE).
+- designed for faster creative testing
+- helps generate draft ad creatives
+- helps create multiple creative angles
+- helps localize ad assets
+- helps produce ad variations
 
 ## Links
 
-- IMGTO: [https://imgto.io](https://imgto.io)
-- Main keyword: Image to Video AI Generator
-- Brand meaning: Image to Everything
+- AIADS.IM: [https://aiads.im](https://aiads.im)
+- Main keyword: AI Ads Generator
+- Core workflow: Input product -> Generate ad creatives
