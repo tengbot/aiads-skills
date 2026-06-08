@@ -5,9 +5,6 @@ Copy this brief when launching a new AI tool site or switching a project to a ne
 ```yaml
 brandName: IMGTO
 domain: https://imgto.io
-reservedDomains:
-  - https://imgto.org
-  - https://imgto.dev
 siteType: image-to-video-site
 mainKeyword: Image to Video AI Generator
 mainSlug: image-to-video
