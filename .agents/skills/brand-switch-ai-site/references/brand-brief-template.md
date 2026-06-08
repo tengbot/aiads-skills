@@ -1,59 +1,69 @@
-# Brand Brief Template
+# AIADS Brand Brief Template
 
-Copy this brief when launching a new AI tool site or switching a project to a new brand.
+Copy this brief when launching or auditing an AI ad creative production site.
 
 ```yaml
-brandName: IMGTO
-domain: https://imgto.io
-siteType: image-to-video-site
-mainKeyword: Image to Video AI Generator
-mainSlug: image-to-video
-tagline: Image to Everything
-homepageTitle: Image to Video AI Generator | IMGTO
-homepageH1: Image to Video AI Generator
-homepageDescription: Turn images into videos, animations, product clips, and social ads with IMGTO AI tools.
-defaultWorkspace: video
-defaultVideoMode: image-to-video
-primaryCTA: Create Image to Video
-secondaryCTA: Explore Image Tools
+brandName: AI Ads
+domain: https://aiads.im
+siteType: ai-ad-creative-production-platform
+mainKeyword: AI Ads Generator
+mainSlug: ai-ads-generator
+homepageTitle: AI Ads Generator for UGC & Product Videos | AI Ads
+homepageH1: AI Ads Generator
+homepageDescription: Create UGC video ads, product videos, hooks, thumbnails, translations, and ad variations for TikTok, YouTube, Instagram, Facebook, and X.
+defaultWorkspace: ads
+defaultVideoMode: product-image-to-video
+primaryCTA: Generate Ad Creatives
+secondaryCTA: Explore Ad Tools
 primaryPromptPage: /prompts
-enabledWorkspaces:
-  - image
+coreWorkflow:
+  - product input
+  - ad angle
+  - hook
+  - script
+  - storyboard
   - video
-  - music
-enabledModels:
-  - gpt-image-2
-  - nano-banana-2
-  - nano-banana-pro
-  - grok-imagine
-  - seedance-2-fast
-enabledTools:
-  - image-to-video
-  - text-to-video
-  - ai-animation-generator
-  - image-upscaler
-  - background-remover
-  - photo-enhancer
-  - image-to-prompt
-promptCategories:
-  - Product Visuals
-  - Poster Design
-  - Portrait
-  - Character Consistency
-  - Infographic
-  - Reference Edit
-pagesToCreate:
+  - captions
+  - voiceover
+  - creative variations
+  - download
+p0Pages:
   - /
-  - /image-to-video
-  - /text-to-video
-  - /ai-video-generator
-  - /image-to-animation
-  - /ai-animation-generator
+  - /ad-video-generator
+  - /product-image-to-video
+  - /url-to-video
+  - /ugc-video-ads
+  - /product-video-generator
+  - /ai-hook-generator
+  - /ai-ad-script-generator
+  - /ad-translation
   - /pricing
-pagesToNoindex:
-  - /music
+p1Pages:
+  - /tiktok-ad-generator
+  - /instagram-ad-generator
+  - /facebook-ad-generator
+  - /youtube-ad-generator
+  - /ad-face-swap
+  - /talking-head-video
+  - /faceless-video-generator
+  - /product-photo-ai
+  - /ai-thumbnail-generator
+  - /caption-generator
+promptCategories:
+  - Hook
+  - UGC Video
+  - Product Video
+  - TikTok Ads
+  - DTC
+  - Affiliate
+  - Translation
+  - Thumbnail
+  - CTA
+  - Before After
+  - Product Demo
 notes:
-  - Keep /image and /video as workspace routes.
-  - Do not redirect workspace routes to hub pages.
-  - Only add finished canonical pages to sitemap.
+  - AIADS is not a general AI video platform.
+  - AIADS is an ad creative production platform.
+  - Keep unfinished pages out of sitemap and footer.
+  - Do not promise guaranteed ROI, sales, conversions, or viral results.
 ```
