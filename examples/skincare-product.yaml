@@ -1,0 +1,23 @@
+brand: GlowLab
+product: Vitamin C Brightening Serum
+category: skincare
+audience: busy women aged 25-40 who want brighter-looking skin
+platforms:
+  - TikTok
+  - Instagram Reels
+  - YouTube Shorts
+pain_point: dull-looking skin after long workdays
+main_benefit: helps skin look brighter and more refreshed
+proof_point: contains vitamin C and hydrating ingredients
+offer: 20% off first order
+brand_voice: clean, confident, friendly
+ad_goal: create 3 short UGC-style product video ads
+creative_constraints:
+  - do not promise medical results
+  - do not claim overnight transformation
+  - avoid fake reviews
+outputs_requested:
+  hooks: 10
+  scripts: 3
+  storyboard_variations: 3
+  cta_variants: 8
