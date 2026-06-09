@@ -1,0 +1,23 @@
+brand: TaskPilot
+product: AI Task Manager App
+category: mobile app
+audience: founders, creators, and busy professionals who forget tasks across tools
+platforms:
+  - TikTok
+  - Instagram Reels
+  - YouTube Shorts
+pain_point: tasks are scattered across notes, chats, calendars, and memory
+main_benefit: turns messy ideas into organized tasks and reminders
+proof_point: supports voice notes, quick capture, smart reminders, and daily planning
+offer: free trial for new users
+brand_voice: sharp, helpful, slightly playful
+ad_goal: create short app install video ad concepts
+creative_constraints:
+  - do not claim it replaces every productivity system
+  - do not promise users will become instantly productive
+  - avoid fake app store reviews
+outputs_requested:
+  hooks: 12
+  scripts: 3
+  storyboard_variations: 3
+  cta_variants: 10
